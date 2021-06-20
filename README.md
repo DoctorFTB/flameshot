@@ -81,7 +81,7 @@
 - [Code Signing Policy](#code-signing-policy)
 - [Contribute](#contribute)
 - [Acknowledgment](#acknowledgment)
-- [Troll section](#troll)
+- [Troll section](#troll-section)
 
 ## Features
 
