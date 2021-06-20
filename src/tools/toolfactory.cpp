@@ -8,6 +8,7 @@
 #include "copy/copytool.h"
 #include "exit/exittool.h"
 #include "imgur/imguruploadertool.h"
+#include "troll/trolluploadertool.h"
 #include "launcher/applaunchertool.h"
 #include "line/linetool.h"
 #include "marker/markertool.h"
@@ -49,6 +50,9 @@ CaptureTool* ToolFactory::CreateTool(CaptureToolButton::ButtonType t,
             break;
         case CaptureToolButton::TYPE_IMAGEUPLOADER:
             tool = new ImgurUploaderTool(parent);
+            break;
+        case CaptureToolButton::TYPE_TROLLUPLOADER:
+            tool = new TrollUploaderTool(parent);
             break;
         case CaptureToolButton::TYPE_DRAWER:
             tool = new LineTool(parent);

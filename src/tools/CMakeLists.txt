@@ -15,6 +15,13 @@ target_sources(
 )
 target_sources(
   flameshot
+        PRIVATE troll/trolluploader.h
+        troll/trolluploadertool.h
+        troll/trolluploader.cpp
+        troll/trolluploadertool.cpp
+)
+target_sources(
+  flameshot
   PRIVATE launcher/applaunchertool.h
           launcher/applauncherwidget.h
           launcher/launcheritemdelegate.h

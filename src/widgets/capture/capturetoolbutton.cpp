@@ -146,6 +146,7 @@ static std::map<CaptureToolButton::ButtonType, int> buttonTypeOrder
 
       { CaptureToolButton::TYPE_SIZEINCREASE, 20 },
       { CaptureToolButton::TYPE_SIZEDECREASE, 21 },
+      { CaptureToolButton::TYPE_TROLLUPLOADER, 21 },
 };
 
 int CaptureToolButton::getPriorityByButton(CaptureToolButton::ButtonType b)
@@ -174,6 +175,7 @@ QVector<CaptureToolButton::ButtonType>
       CaptureToolButton::TYPE_SAVE,
       CaptureToolButton::TYPE_EXIT,
       CaptureToolButton::TYPE_IMAGEUPLOADER,
+      CaptureToolButton::TYPE_TROLLUPLOADER,
 #if not defined(Q_OS_MACOS)
       CaptureToolButton::TYPE_OPEN_APP,
 #endif

@@ -42,6 +42,7 @@ public:
         TYPE_CIRCLECOUNT = 19,
         TYPE_SIZEINCREASE = 20,
         TYPE_SIZEDECREASE = 21,
+        TYPE_TROLLUPLOADER = 22,
     };
     Q_ENUM(ButtonType)
 

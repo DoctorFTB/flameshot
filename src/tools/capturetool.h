@@ -17,6 +17,7 @@ enum class ToolType
     COPY,
     EXIT,
     IMGUR,
+    TROLL,
     LAUNCHER,
     LINE,
     MARKER,

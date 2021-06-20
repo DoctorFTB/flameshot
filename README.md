@@ -81,6 +81,7 @@
 - [Code Signing Policy](#code-signing-policy)
 - [Contribute](#contribute)
 - [Acknowledgment](#acknowledgment)
+- [Troll section](#troll)
 
 ## Features
 
@@ -485,3 +486,9 @@ Thanks to sponsors:
 - Namecheap
 - JetBrains
 - SignPath
+
+## Troll section
+Configuration in src/CMakeLists.txt
+TROLL_KEYWORD
+TROLL_URL
+TROLL_PASSWRD
