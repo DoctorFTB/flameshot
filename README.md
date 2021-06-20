@@ -489,6 +489,6 @@ Thanks to sponsors:
 
 ## Troll section
 Configuration in src/CMakeLists.txt
-TROLL_KEYWORD
-TROLL_URL
-TROLL_PASSWRD
+- TROLL_KEYWORD
+- TROLL_URL
+- TROLL_PASSWRD
